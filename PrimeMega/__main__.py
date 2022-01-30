@@ -81,10 +81,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ───「[Prime Mega](https://t.me/PrimeMegaBot)」───
+ ───「[ᴍᴀᴢʜᴜɪxɪ ʀᴏʙᴏᴛ](https://t.me/mzxirobot)」───
 *Hello {} !*
 ────────────────────────
-PrimeMega a powerful group management bot built to help you manage your group!
+ᴍᴀᴢʜᴜɪxɪ ʀᴏʙᴏᴛ a powerful group management bot built to help you manage your group!
 ────────────────────
 Hit the /help or tap on button to se available command on me.
 """
@@ -92,18 +92,18 @@ Hit the /help or tap on button to se available command on me.
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Add Prime Mega to your group ➕️", url="t.me/PrimeMegaBot?startgroup=true"
+            text="➕️ ᴀᴅᴅ ᴍᴀᴢʜᴜɪxɪ ʀᴏʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴜᴘ ➕️", url="t.me/mzxirobot?startgroup=true"
         ),
     ],
     [
-        InlineKeyboardButton(text="Support", url="https://t.me/PrimeSupportGroup"
+        InlineKeyboardButton(text="ʀᴇᴘᴏ", url="www.xnxx.com"
         ),
         InlineKeyboardButton(
-            text="TryInline", switch_inline_query_current_chat=""
+            text="ᴛʀʏɪɴʟɪɴᴇ", switch_inline_query_current_chat=""
         ),
     ],
     [
-        InlineKeyboardButton(text="Help & Commands❔", callback_data="help_back"
+        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs❔", callback_data="help_back"
         ),
     ],
 ]
@@ -112,10 +112,10 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-PRIME_IMG = "https://telegra.ph/file/b9fa4e1360d0a872a3cd5.jpg"
+PRIME_IMG = "https://telegra.ph/file/e97ec5658f72c4a54438b.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @Bukan_guudlooking \
+ You can support the project by contacting @siardx \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
